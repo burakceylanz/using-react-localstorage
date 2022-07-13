@@ -1,0 +1,52 @@
+.form {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  .task {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: burlywood;
+  }
+
+  .input {
+    border-color: burlywood;
+    outline: 0;
+    background-color: burlywood;
+    color: seashell;
+    font-weight: bold;
+  }
+  .btn {
+    padding: 5px 10px;
+    background-color: burlywood;
+    margin: 10px;
+    color: seashell;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background-color: seashell;
+    color: burlywood;
+  }
+}
+
+.strg{
+    padding:10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    width: 150px;
+    margin:10px;
+    color:seashell;
+    font-size:16px;
+    border-radius: 50px;
+    text-align: center;
+}
